@@ -14,6 +14,7 @@
 		239ED01A249CF5A200C6CBE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 239ED019249CF5A200C6CBE0 /* Assets.xcassets */; };
 		239ED01D249CF5A200C6CBE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 239ED01B249CF5A200C6CBE0 /* LaunchScreen.storyboard */; };
 		239ED020249CF5A200C6CBE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 239ED01F249CF5A200C6CBE0 /* main.m */; };
+		239ED029249CF62000C6CBE0 /* CFPersonM.m in Sources */ = {isa = PBXBuildFile; fileRef = 239ED028249CF62000C6CBE0 /* CFPersonM.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		239ED01C249CF5A200C6CBE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		239ED01E249CF5A200C6CBE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		239ED01F249CF5A200C6CBE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		239ED027249CF62000C6CBE0 /* CFPersonM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFPersonM.h; sourceTree = "<group>"; };
+		239ED028249CF62000C6CBE0 /* CFPersonM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFPersonM.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 		239ED026249CF5D100C6CBE0 /* 我的框架 */ = {
 			isa = PBXGroup;
 			children = (
+				239ED027249CF62000C6CBE0 /* CFPersonM.h */,
+				239ED028249CF62000C6CBE0 /* CFPersonM.m */,
 			);
 			path = "我的框架";
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 				239ED015249CF5A200C6CBE0 /* ViewController.m in Sources */,
 				239ED00F249CF5A200C6CBE0 /* AppDelegate.m in Sources */,
 				239ED020249CF5A200C6CBE0 /* main.m in Sources */,
+				239ED029249CF62000C6CBE0 /* CFPersonM.m in Sources */,
 				239ED012249CF5A200C6CBE0 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NA942UM346;
 				INFOPLIST_FILE = CFPer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,6 +324,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NA942UM346;
 				INFOPLIST_FILE = CFPer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

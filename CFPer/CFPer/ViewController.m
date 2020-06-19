@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "CFPersonM.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    CFPersonM * p = [CFPersonM new];
+    
+    [p eat];
     // Do any additional setup after loading the view.
 }
 
